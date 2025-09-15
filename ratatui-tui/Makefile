@@ -13,7 +13,9 @@ YELLOW=\033[0;33m
 BLUE=\033[0;34m
 NC=\033[0m # No Color
 
-.PHONY: help build run test clean deps fmt lint install dev bench
+#* Setup
+.PHONY: $(shell sed -n -e '/^$$/ { n ; /^[^ .\#][^ ]*:/ { s/:.*$$// ; p ; } ; }' $(MAKEFILE_LIST))
+.DEFAULT_GOAL := help
 
 # Default target
 help: ## Show this help message
