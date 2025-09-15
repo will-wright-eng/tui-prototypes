@@ -16,6 +16,7 @@ This repository contains working prototypes of TUI applications built with diffe
 ## Prototypes
 
 ### 🐹 Go + Bubble Tea TUI
+
 **Location**: `bubble-tea-tui/`
 
 A modern TUI built with Go and the Bubble Tea framework, demonstrating:
@@ -38,6 +39,7 @@ make run
 ```
 
 ### 🦀 Rust + Ratatui TUI
+
 **Location**: `ratatui-tui/`
 
 A high-performance TUI built with Rust and the Ratatui framework, showcasing:
@@ -72,17 +74,20 @@ Comprehensive design documents are available in the `docs/` directory:
 Both prototypes share common functionality:
 
 ### Navigation
+
 - **1-4**: Switch between views
 - **q/Esc**: Quit application
 - **Ctrl+C**: Force quit
 
 ### Views
+
 1. **Dashboard** - Overview and quick actions
 2. **Data Browser** - Tabular data display
 3. **Settings** - Configuration options
 4. **Help** - Documentation and shortcuts
 
 ### Design Principles
+
 - **Responsive**: Adapts to different terminal sizes
 - **Keyboard-First**: Full keyboard navigation
 - **Component-Based**: Reusable UI components
@@ -92,11 +97,13 @@ Both prototypes share common functionality:
 ## Development
 
 ### Prerequisites
+
 - **Go 1.21+** (for Bubble Tea prototype)
 - **Rust 1.70+** (for Ratatui prototype)
 - Terminal with ANSI color support
 
 ### Getting Started
+
 
 1. **Clone the repository**:
    ```bash
@@ -118,6 +125,7 @@ Both prototypes share common functionality:
    ```
 
 ### Development Workflow
+
 
 Each prototype includes comprehensive development tools:
 
