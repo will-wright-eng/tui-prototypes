@@ -13,6 +13,26 @@ This repository contains working prototypes of TUI applications built with diffe
 - Theming and styling systems
 - Cross-platform compatibility
 
+```bash
+Counting lines of code in: tui-prototypes
+==========================================
+
+Language                  Lines      Files
+----------------------------------------
+Go                          915         11
+JavaScript                 2179         15
+JSON                         93          1
+Rust                       1114          5
+YAML                         84          1
+----------------------------------------
+TOTAL                      4385         33
+
+Statistics:
+- Average lines per file: 132
+- Total files scanned: 33
+- Total non-empty lines: 4385
+```
+
 ## Prototypes
 
 ### 🐹 Go + Bubble Tea TUI
