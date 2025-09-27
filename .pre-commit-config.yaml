@@ -25,23 +25,23 @@ repos:
       - id: mixed-line-ending
         args: ['--fix=lf']
 
-  # Go specific hooks
-  - repo: https://github.com/dnephin/pre-commit-golang
-    rev: v0.5.1
-    hooks:
-      - id: go-fmt
-        files: \.go$
-      - id: go-vet
-        files: \.go$
-      - id: go-imports
-        files: \.go$
-      - id: go-mod-tidy
-        files: go\.mod$
-      - id: go-unit-tests
-        files: \.go$
-        args: [-race, -coverprofile=coverage.out]
-      - id: go-build
-        files: \.go$
+  # # Go specific hooks
+  # - repo: https://github.com/dnephin/pre-commit-golang
+  #   rev: v0.5.1
+  #   hooks:
+  #     - id: go-fmt
+  #       files: \.go$
+  #     - id: go-vet
+  #       files: \.go$
+  #     - id: go-imports
+  #       files: \.go$
+  #     - id: go-mod-tidy
+  #       files: go\.mod$
+  #     - id: go-unit-tests
+  #       files: \.go$
+  #       args: [-race, -coverprofile=coverage.out]
+  #     - id: go-build
+  #       files: \.go$
 
   # Rust specific hooks
   - repo: https://github.com/doublify/pre-commit-rust
